@@ -39,7 +39,6 @@ MSBuild targets
 .builds
 *.pidb
 *.log
-32
 *.scc
 # Visual C++ cache files
 ipch/
@@ -79,7 +78,6 @@ DocProject/Help/html
 publish/
 # Publish Web Output
 *.Publish.xml
-33
 # NuGet Packages Directory
 ## TODO: If you have NuGet Package Restore enabled, uncomment the next line
 #packages/
@@ -119,7 +117,6 @@ ModelManifest.xml
 # Windows detritus
 # =========================
 # Windows image file caches
-34
 Thumbs.db
 ehthumbs.db
 # Folder config file

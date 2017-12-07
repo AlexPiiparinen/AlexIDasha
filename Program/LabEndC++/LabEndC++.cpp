@@ -3,7 +3,7 @@
 #include "stdafx.h"
 #include <iostream>
 using namespace std;
-
+#include "Funcs.h" 
 
 int main()
 {	
@@ -22,12 +22,14 @@ int main()
 	{
 	case 1: 
 		{
-			cout << "Функция сложения находится в стадии разработки" << endl;
+			//cout << "Функция сложения находится в стадии разработки" << endl;
+			cout << MySum(a, b) << endl;
 			break; 
 		}
 	case 2:
 		{
-			cout << "Функция вычитания находится в стадии разработки" << endl;
+			//cout << "Функция вычитания находится в стадии разработки" << endl;
+			cout << MySub(a, b) << endl;
 			break; 
 		}
 	case 3:
