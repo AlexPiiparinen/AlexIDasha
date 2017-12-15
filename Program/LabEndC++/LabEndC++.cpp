@@ -1,11 +1,9 @@
-
 //файл LabEndC++.cpp
 #include "stdafx.h"
 #include <iostream>
 using namespace std;
 #include "Funcs.h" 
  
-
 int main()
 {	
 	setlocale(LC_ALL, "rus"); // корректное отображение Кириллицы
