@@ -4,6 +4,7 @@
 #include <iostream>
 using namespace std;
 #include "Funcs.h" 
+ 
 
 int main()
 {	
@@ -15,7 +16,7 @@ int main()
 	cin >> a; cin >> b;
 	
 		
-	cout << "Введите номер операции" << endl << "1 - Сложение" << endl << "2 - Вычитание" << endl << "3 - Деление" << endl << "4 - Умножение" << endl;
+	cout << "Введите номер операции" << endl << "1 - Сложение" << endl << "2 - Вычитание" << endl << "3 - Умножение" << endl << "4 - Деление" << endl;
 	cin >> Numb;
 
 	switch (Numb)
@@ -34,12 +35,12 @@ int main()
 		}
 	case 3:
 		{
-			cout << "Функция умножения находится в стадии разработки" << endl;
+			cout << MyMul(a, b) << endl;
 			break; 
 		}
 	case 4:
 		{
-			cout << "Функция деления находится в стадии разработки" << endl;
+			cout << MyDiv(a, b) << endl;
 			break; 
 		}
 
